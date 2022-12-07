@@ -1,0 +1,13 @@
+.confirm_con{
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+}
+#confirm_btn{
+    background-color: red;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

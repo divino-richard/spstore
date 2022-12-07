@@ -1,0 +1,43 @@
+
+.sidebar{
+    width: 17rem;
+    background-color: #485563;
+    color: #d6d6d6;
+    padding-bottom: 20rem;
+}
+.employee_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1px solid #8b9faa;
+}
+.employee_logo img{
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+.nav_menu{
+    width: 100%;
+    padding: 2rem 0;
+    padding-left: 2rem;
+}
+.nav_menu li{
+    list-style: none;
+    font-size: 18px;
+    color: #cccbcb;
+    margin: 5px 0;
+}
+.nav_menu li a{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #cccbcb;
+    padding: .7rem 1.5rem;
+}
+.active, .nav_menu li a:hover{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #53667a;
+}
+

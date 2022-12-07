@@ -1,0 +1,45 @@
+.dashboard_con{
+    margin: 1rem 0;
+}
+.dashboard_con section{
+    padding: 1rem;
+    border-radius: 5px;
+}
+.dashboard_con p{
+    padding: 10px 15px;
+    font-size: 17px;
+    color: #4a4a4a;
+}
+.dashboard_con span{
+    padding: 0 15px;
+    font-size: 12px;
+    color: #717070;
+}
+.dashboard_con b{
+    font-size: 2.5vw;
+    color: #557697;
+}
+.boxes_container{
+    display: flex;
+}
+.boxes_container div{
+    width: 25%;
+    background-color: #FFF;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.sales_box, .order_box, .profit_box{
+    border-style: solid;
+    border-width: 10px 1px 1px;
+}
+.sales_box{
+    border-color: #485b6f;
+
+}
+.order_box{
+    border-color: #5d80a4;
+}
+.profit_box{
+    border-color: #5d92c6;
+}

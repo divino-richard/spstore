@@ -1,0 +1,36 @@
+
+.topbar_con{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #485563;
+    color: #ffffff;
+    box-shadow: 0 0 5px 3px #afafaf;
+}
+
+.topbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: .5rem 1.5rem;
+    border-radius: 25px;
+}
+
+.topbar a:hover{
+    color: #e4e3e3;
+    background-color: #8da7a7;
+    transition: all .5s ease-out;
+}
+
+.topbar h4{
+    margin-left: 1.5rem;
+}
+

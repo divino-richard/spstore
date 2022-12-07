@@ -1,0 +1,49 @@
+/* Button */
+.mark_as_paid_btn{
+    background-color: #dddddd;
+    color: #1c9703;
+    margin-top: 5px;
+}
+.mark_as_paid_btn:hover{
+    background-color: #1c9703;
+    color: #ffffff;
+}
+.change_delivery_stat_btn{
+    background-color: #4c6c8f;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+#modal_container section{
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+#selected_delivery_status{
+    padding: 10px 20px;
+    display: none;
+}
+#selected_delivery_status option{
+    width: 15rem;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+#selected_delivery_status option:hover{
+    background-color: #485563;
+    color: #FFF;
+}
+
+.mark_as_paid_confirm_con{
+    display: none;
+    text-align: center;
+}
+#confirm_btn{
+    background-color: #4ca347;
+    color: #FFF;
+    width: 10rem;
+    margin-top: 2rem;
+    padding: 10px 0;
+    font-size: 17px;
+}
+#confirm_btn:hover{
+    background-color: #5cc157;
+}

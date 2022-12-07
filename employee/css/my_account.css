@@ -1,0 +1,25 @@
+.account_con{
+    margin: 2rem auto;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 2rem;
+}
+.account_con ul{
+    color: #444444;
+    margin-top: 1rem;
+}
+.account_con li{
+    list-style: none;
+    padding: 10px 0;
+}
+.change_pass_form{
+    width: 40%;
+    box-shadow: none;
+}
+#change_pass_btn{
+    background-color: #b4d9ff;
+    margin-top: 2rem;
+    color: #5b5959;
+    font-size: 15px;
+}

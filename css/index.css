@@ -1,0 +1,126 @@
+
+.banner_container{
+    height: 100vh;
+    padding-top: 10rem;
+    display: flex;
+    background-color:#485563; 
+}
+.banner_container img{
+    width: 40%;
+    position: relative;
+    animation: bannerShowIn 2s ease;
+    object-fit: contain;
+}
+.banner_text{
+    position: relative;
+    top: 7rem;
+    animation: bounceText 2s ease;
+    color: #FFF;
+    padding: 0 2rem;
+}
+.banner_text span{
+    font-size: 17px;
+}
+.banner_text h1{
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.banner_text h2{
+    font-size: 2vw;
+    font-weight: 400;
+}
+.smartphone_btn{
+    margin-top: 2rem;
+    border: 2px solid #64778b;
+    background-color: #0dcffb;
+    color: #485563;
+    font-size: 1.5rem;
+    padding: 10px 2.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.smartphone_btn:hover{
+    background-color: #64778b;
+    color: #FFF;
+}
+@keyframes bannerShowIn{
+    0%{
+        left: -40%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes bounceText{
+    0%{
+        top: 0;
+    }
+    25%{
+        top: 12rem;
+    }
+    50%{
+        top: 5rem;
+    }
+    100%{
+        top: 7rem;
+    }
+}
+
+.product_section{
+    padding: 5rem 0;
+}
+.product_section h1{
+    margin-left: 5rem;
+    color: #7f7f7f;
+}
+.products_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+/* Individual product style */
+.product{
+    width: 13rem;
+    margin: 25px 17px;
+    padding-bottom: 15px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #a6a6a6;
+    text-align: center;
+    transition: transform .5s ease;
+}
+.product:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px 2px #82e2ff;
+}
+.product_image{
+    object-fit: contain;
+    width: 100%;
+    height: 11rem;
+}
+.product_details{
+    padding: 10px 0;
+}
+.product_price{
+    font-size: 25px;
+    font-weight: 500;
+    color: #dc622a;
+}
+.buy_btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #485563;
+    border-radius: 20px;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+.buy_btn:hover{
+    background-color: #59697b;
+}

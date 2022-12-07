@@ -1,0 +1,67 @@
+.account_con{
+    margin: 12rem auto 0;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 2rem;
+}
+.account_con ul{
+    color: #444444;
+    margin-top: 1rem;
+}
+.account_con li{
+    list-style: none;
+    padding: 10px 0;
+}
+#change_pass_btn{
+    padding: 7px 10px;
+    background-color: #c4f3fc;
+    border-radius: 5px;
+    border: none;
+    color: #444444;
+    margin-top: 1rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#modal_container{
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+form{
+    background-color: #FFF;
+    width: 35%;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+form input[type="text"]{
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin: 5px;
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: #485563;
+    color: #FFF;
+    border-radius: 25px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #57697d;
+}

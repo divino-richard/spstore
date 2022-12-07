@@ -1,0 +1,9 @@
+.customers_container{
+    padding: 1rem;
+}
+.customers_header{
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    padding: 5px 0;
+}

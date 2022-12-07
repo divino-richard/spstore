@@ -1,0 +1,26 @@
+.order_con{
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    color: #5b5b5b;
+}
+.order_con img{
+    width: 25rem;
+    height: fit-content;
+    object-fit: contain;
+    margin-right: 2rem;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFF;
+}
+.order_con p{
+    padding: 5px;
+    line-height: 25px;
+}
+.order_con h3{
+    background-color: #557697;
+    color: #FFF;
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+}

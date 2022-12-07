@@ -1,0 +1,36 @@
+
+.my_orders_con{
+    width: 75%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 12rem auto;
+}
+.my_orders_con h2{
+    color: #7b7b7b;
+    margin-bottom: 2rem;
+    padding: 10px;
+    border-bottom: 1px solid #b6b6b6;
+}
+.order_item{
+    display: flex;
+    align-items: center;
+    color: #7b7b7b;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 5px 0;
+}
+.order_item:hover{
+    background-color: #f8f8f8;
+}
+.order_item p{
+    text-align: left;
+    font-size: 17px;
+    flex: .25;
+}
+.order_item img{
+    width: 3rem;
+    margin-right: 2rem;
+    background-color: #b6b6b6;
+}
+
+
